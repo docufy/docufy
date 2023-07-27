@@ -1,0 +1,20 @@
+{
+  "name": "@docufy/docufy",
+  "description": "Docufy is a sweet static site generator.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/docufy/docufy",
+  "author": {
+    "name": "Emad Malekpour",
+    "email": "prodemmi@gmail.com",
+    "url": "https://prodemmi.netlify.app"
+  },
+  "keywords": [],
+  "scripts": {
+    "dev": "docufy dev",
+    "preview": "docufy preview",
+    "build": "docufy build"
+  },
+  "dependencies": {
+    "@docufy/core": "file:../core"
+  }
+}
