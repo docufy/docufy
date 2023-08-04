@@ -1,1 +1,6 @@
-!extend: "main"
+extends 'layouts/main.pug'
+
+block content
+  - var pets = ['cat', 'dog']
+  each petName in pets
+    include pet.pug

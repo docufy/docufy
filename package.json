@@ -15,6 +15,7 @@
     "build": "docufy build"
   },
   "dependencies": {
-    "@docufy/core": "file:../core"
+    "@docufy/core": "file:../core/packages/core",
+    "@docufy/theme-builder": "file:../core/packages/theme-builder"
   }
 }
